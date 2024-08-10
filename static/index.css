@@ -5,6 +5,9 @@
     .nav-buttons{
         display: none;
     }
+    .service-list{
+        flex-direction: column;
+    }
 }
 
 /* General Styles */
