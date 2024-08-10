@@ -1,16 +1,6 @@
 @media only screen and (max-width: 900px){
-    .navbar{
+    .nav-links{
         display: none;
-    }
-    #nav_responsive_box{
-        display: flex;
-    }
-    .navbar_reponsive{
-        display: flex;
-        position: fixed;
-    }
-    #hamburger_icon{
-        display: flex;
     }
     .nav-buttons{
         display: none;
