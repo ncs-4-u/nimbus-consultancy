@@ -17,7 +17,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 40%; /* Set a fixed width for the form */
-    text-align: center; /* Center the text inside the form */
+    text-align: left; /* Center the text inside the form */
 }
 
 h2 {
