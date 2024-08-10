@@ -5,6 +5,12 @@
     .nav-links{
         display: none;
     }
+    #hamburger_icon{
+        display: flex;
+    }
+    .nav-buttons{
+        display: none;
+    }
 }
 
 /* General Styles */
