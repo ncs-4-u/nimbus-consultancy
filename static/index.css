@@ -2,7 +2,7 @@
     #nav_responsive_box{
         display: flex;
     }
-    .nav-links{
+    .nav-links, .nav-links a{
         display: none;
     }
     #hamburger_icon{
