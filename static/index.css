@@ -2,8 +2,12 @@
     #nav_responsive_box{
         display: flex;
     }
-    .nav-links, .nav-links a{
+    .navbar{
         display: none;
+    }
+    .navbar_reponsive{
+        display: flex;
+        position: fixed;
     }
     #hamburger_icon{
         display: flex;
@@ -26,6 +30,9 @@ body {
     display: none;
 }
 #hamburger_icon{
+    display: none;
+}
+.navbar_reponsive{
     display: none;
 }
 

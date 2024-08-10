@@ -31,15 +31,21 @@
                 <a href="{% url 'signup' %}" class="btn btn-signup">Sign Up</a>
             {% endif %}
         </div>
-        <button id="hamburger_icon" onclick="show_responsive_box()">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </button>
     </nav>
 
+
     <!-- navbar for small screens -->
-    <nav id="nav_responsive_box">
+    <nav class="navbar_reponsive">
+        <div class="nav-logo">
+            <a href="#">Nimbus Consultancy</a>
+        </div>
+    <button id="hamburger_icon" onclick="show_responsive_box()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </button>
+    </nav>
+    <div id="nav_responsive_box">
         <a href="#nav_responsive_box"><button id="close_responsive_box" onclick="hide_responsive_box()"></a>
             <h1>X</h1>
         </button>
@@ -60,7 +66,7 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
+    </div>
 
     <!-- Hero Section -->
     <header class="hero">
