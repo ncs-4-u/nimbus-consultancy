@@ -1,0 +1,82 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8eff5; /* Soft blue-gray background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Professional font */
+}
+
+.form-container {
+    background-color: #ffffff; /* White background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Set a fixed width for the form */
+    text-align: center; /* Center the text inside the form */
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #333333; /* Dark gray text color */
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #66afe9; /* Blue border on focus */
+    outline: none; /* Remove the default outline */
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6); /* Add subtle shadow on focus */
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3); /* Add shadow on hover */
+}
+
+button[type="submit"]:active {
+    background-color: #004494; /* Even darker blue on click */
+    box-shadow: none;
+}
+
+@media (max-width: 400px) {
+    .form-container {
+        width: 90%; /* Responsive design for small screens */
+    }
+}
