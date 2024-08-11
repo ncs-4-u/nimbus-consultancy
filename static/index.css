@@ -1,20 +1,3 @@
-/* Media Queries */
-@media only screen and (max-width: 900px) {
-    .nav-links li {
-        display: none;
-    }
-    .nav-buttons {
-        display: none;
-    }
-    .service-list {
-        flex-direction: column;
-        width: 100%;
-    }
-    .service-item {
-        width: 100%;
-    }
-}
-
 /* General Styles */
 *{
     box-sizing: border-box;
@@ -160,4 +143,20 @@ body {
     text-align: center;
     width: 100%;
     padding: 20px; /* added padding */
+}
+/* Media Queries */
+@media only screen and (max-width: 900px) {
+    .nav-links li {
+        display: none;
+    }
+    .nav-buttons {
+        display: none;
+    }
+    .service-list {
+        flex-direction: column;
+        width: 100%;
+    }
+    .service-item {
+        width: 90%;
+    }
 }
