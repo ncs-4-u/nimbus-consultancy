@@ -117,7 +117,7 @@ body {
 .about-us, .services, .why-choose-us, .call-to-action {
     padding: 60px 20px;
     background-color: #fff;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     text-align: center;
     width: 95%;
     margin: 0 auto;
