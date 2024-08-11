@@ -45,7 +45,7 @@ body {
     align-items: center;
     position: fixed;
     width: 100%;
-    padding: 20px 10px; /* added padding */
+    padding: 5px 10px; /* added padding */
     z-index: 1;
 }
 
