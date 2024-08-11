@@ -106,9 +106,9 @@ body {
 }
 
 .about-us, .services, .why-choose-us, .call-to-action {
-    padding: 40px; /* reduced padding */
+    padding: 30px; /* reduced padding */
     background-color: #fff;
-    margin: 20px auto; /* added margin */
+    margin: 10px auto; /* added margin */
     text-align: center;
     width: 95%;
 }
@@ -128,7 +128,6 @@ body {
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
-    margin: 10px; /* added margin */
 }
 
 .call-to-action {
