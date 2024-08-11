@@ -7,6 +7,8 @@
     }
     .service-list{
         flex-direction: column;
+    }
+    .service-item{
         width: 100%;
     }
 }
@@ -101,6 +103,7 @@ body {
     color: #fff;
     padding: 100px 0px;
     text-align: center;
+    width:100%;
 }
 
 .hero-content h1 {
@@ -118,6 +121,7 @@ body {
     background-color: #fff;
     margin-bottom: 20px;
     text-align: center;
+    width: 100%;
 }
 
 .service-list {
