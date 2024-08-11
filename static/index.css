@@ -1,15 +1,16 @@
-@media only screen and (max-width: 900px){
-    .nav-links li{
+/* Media Queries */
+@media only screen and (max-width: 900px) {
+    .nav-links li {
         display: none;
     }
-    .nav-buttons{
+    .nav-buttons {
         display: none;
     }
-    .service-list{
+    .service-list {
         flex-direction: column;
         width: 100%;
     }
-    .service-item{
+    .service-item {
         width: 100%;
     }
 }
@@ -23,13 +24,13 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-#nav_responsive_box{
+#nav_responsive_box {
     display: none;
 }
-#hamburger_icon{
+#hamburger_icon {
     display: none;
 }
-.navbar_reponsive{
+.navbar_reponsive {
     display: none;
 }
 
@@ -41,6 +42,7 @@ body {
     align-items: center;
     position: fixed;
     width: 100%;
+    padding: 20px; /* added padding */
 }
 
 .nav-logo a {
@@ -91,17 +93,17 @@ body {
     color: #ff5722;
 }
 
-.nav-buttons{
-    margin-right: 50px;
+.nav-buttons {
+    margin-right: 20px; /* reduced margin */
 }
 
 .hero {
     background-color: black;
     color: #fff;
-    padding: 100px 20px;
+    padding: 60px; /* increased padding */
     text-align: center;
-    width:95%;
-    margin: 0 auto;
+    width: 95%;
+    margin: 20px auto; /* added margin */
 }
 
 .hero-content h1 {
@@ -115,21 +117,21 @@ body {
 }
 
 .about-us, .services, .why-choose-us, .call-to-action {
-    padding: 60px 20px;
+    padding: 40px; /* reduced padding */
     background-color: #fff;
-    /* margin-bottom: 20px; */
+    margin: 20px auto; /* added margin */
     text-align: center;
     width: 95%;
-    margin: 0 auto;
 }
 
-.why-choose-us ul{
+.why-choose-us ul {
     text-align: left;
 }
 
 .service-list {
     display: flex;
     justify-content: space-around;
+    margin: 20px; /* added margin */
 }
 
 .service-item {
@@ -137,11 +139,13 @@ body {
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
+    margin: 10px; /* added margin */
 }
 
 .call-to-action {
     background-color: #4CAF50;
     color: #fff;
+    padding: 40px; /* increased padding */
 }
 
 .footer {
@@ -149,4 +153,5 @@ body {
     color: #fff;
     text-align: center;
     width: 100%;
+    padding: 20px; /* added padding */
 }
