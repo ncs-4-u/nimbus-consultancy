@@ -11,11 +11,17 @@ body {
     background-color: #f4f4f4;
 }
 #nav_responsive_box {
-    display: none;
+    display: none;  
 }
 #hamburger_icon {
     display: none;
+    cursor: pointer;
+    color: #fff;
 }
+.hamburger_icon i {
+    font-size: 24px;
+}
+
 .navbar_reponsive {
     display: none;
 }
@@ -159,4 +165,22 @@ body {
     .service-item {
         width: 95%;
     }
+    #hamburger_icon{
+        display: block;
+    }
+    .navbar .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        text-align: center;
+    }
+
+}
+
+.show {
+    display: flex !important;
 }
