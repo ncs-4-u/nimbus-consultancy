@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const hamburger = document.getElementById("hamburger_icon");
+    const hamburger_icon = document.getElementById("hamburger_icon");
     const navLinks = document.getElementById("navLinks");
 
     // Check if elements exist
