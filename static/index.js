@@ -1,12 +1,22 @@
-function toggleVisibility(id) {
-    var element = document.getElementById(id);
-    if (element) {
-        if (element.style.display === "none") {
-            element.style.display = "block";
-        } else {
-            element.style.display = "none";
-        }
-    } else {
-        console.error("Element with ID '" + id + "' not found.");
+console.log("start");
+document.getElementById("hamburger_icon").addEventListener('onclick', show_responsive_box);
+console.log("event_listner");
+var o = document.getElementById("nav_responsive_box");
+console.log("var box acquired");
+function show_responsive_box() {
+    console.log("inside function");
+    if (o.style.display != "flex") {
+        console.log("inside if");
+        o.style.display = "flex";
     }
+    else { o.style.display = "none" }
+}
+
+document.getElementById("close_responsive_box").addEventListener('onclick',hide_responsive_box);
+var x = document.getElementById("nav_responsive_box");
+function hide_responsive_box(){
+    if(x.style.display != "none"){
+        x.style.display = "none";
+    }
+
 }
