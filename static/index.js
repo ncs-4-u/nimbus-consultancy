@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
     const hamburger_icon = document.getElementById("hamburger_icon");
-    const navLinks = document.getElementById("navLinks");
+    const navlinks = document.getElementById("navlinks");
 
     // Check if elements exist
-    if (hamburger_icon && navLinks) {
+    if (hamburger_icon && navlinks) {
         hamburger_icon.addEventListener("click", function() {
-            navLinks.classList.toggle("show");
+            navlinks.classList.toggle("show");
         });
     } else {
-        console.error("Hamburger or navLinks element not found in the DOM.");
+        console.error("Hamburger latest message or navLinks element not found in the DOM.");
     }
 });
