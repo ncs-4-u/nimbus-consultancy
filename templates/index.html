@@ -43,7 +43,7 @@
         <a href="#nav_responsive_box"><button id="close_responsive_box" onclick="hide_responsive_box()"></a>
             <h1>X</h1>
         </button>
-        <div id="element">
+        <div id="login_responsive_box">
             {% if user.is_authenticated %}
                 <form action="{% url 'logout' %}" method="post" style="display:inline;">
                     {% csrf_token %}
