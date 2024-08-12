@@ -183,7 +183,9 @@ body {
         flex-direction: column;
         width: 95%;
         margin: 0px auto;
-        margin-top: 80px;
+    }
+    #close_responsive_box{
+        margin-top: 60px;
     }
 
 }
