@@ -32,7 +32,7 @@
                 <a href="{% url 'signup' %}" class="btn btn-signup">Sign Up</a>
             {% endif %}
         </div>
-        <div id="hamburger_icon" class="hamburger_icon" onclick="DOMContentLoaded()">
+        <div id="hamburger_icon" class="hamburger_icon" onclick="toggleVisibility('element')">
             <i class="fas fa-bars"></i>
         </div>
     </nav>
@@ -40,10 +40,10 @@
 
     <!-- navbar for small screens -->
     <div id="nav_responsive_box">
-        <a href="#nav_responsive_box"><button id="close_responsive_box" onclick="hide_responsive_box()"></a>
+        <!-- <a href="#nav_responsive_box"><button id="close_responsive_box" onclick="hide_responsive_box()"></a>
             <h1>X</h1>
-        </button>
-        <div id="login_responsive_box">
+        </button> -->
+        <div id="element">
             {% if user.is_authenticated %}
                 <form action="{% url 'logout' %}" method="post" style="display:inline;">
                     {% csrf_token %}

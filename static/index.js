@@ -1,13 +1,12 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const hamburger_icon = document.getElementById("hamburger_icon");
-    const navlinks = document.getElementById("navlinks");
-
-    // Check if elements exist
-    if (hamburger_icon && navlinks) {
-        hamburger_icon.addEventListener("click", function() {
-            navlinks.classList.toggle("show");
-        });
+function toggleVisibility(id) {
+    var element = document.getElementById(id);
+    if (element) {
+        if (element.style.display === "none") {
+            element.style.display = "block";
+        } else {
+            element.style.display = "none";
+        }
     } else {
-        console.error("Hamburger latest message or navLinks element not found in the DOM.");
+        console.error("Element with ID '" + id + "' not found.");
     }
-});
+}
