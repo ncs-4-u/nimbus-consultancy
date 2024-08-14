@@ -3,8 +3,8 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login
 from django.contrib import messages
 
-def index(request):
-    return render(request, 'index.html')
+def home(request):
+    return render(request, 'home.html')
 
 def signup(request):
     if request.method == 'POST':
