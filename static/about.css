@@ -1,6 +1,66 @@
-h1{
-    text-align: center;
-}
 .content{
     padding: 60px 10px;
+}
+.about-us {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.about-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.about-us p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+}
+
+.about-us h3 {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.about-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-us ul li {
+    background: #ecf0f1;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+    color: #34495e;
+}
+
+.about-us ul li strong {
+    color: #2c3e50;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-us {
+        padding: 20px;
+    }
+
+    .about-us h2 {
+        font-size: 2em;
+    }
+
+    .about-us h3 {
+        font-size: 1.5em;
+    }
+
+    .about-us p {
+        font-size: 1em;
+    }
 }
